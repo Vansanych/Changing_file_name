@@ -1,6 +1,7 @@
 import os
 
 # dir_name = r'C:\Users\User\Desktop\Логачев\ТК формат разработки'
+dir_name = input('Укажите адрес папки: ')
 files = os.listdir(dir_name)
 
 
